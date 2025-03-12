@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacman Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div id="mode-selection" class="mode-selection">
+            <h1>Pacman Game</h1>
+            <p>Select Game Mode:</p>
+            <button id="simple-mode" class="mode-button">Simple Mode</button>
+            <button id="normal-mode" class="mode-button">Normal Mode (with Ghosts)</button>
+        </div>
+        <div class="score-board">Score: <span id="score">0</span></div>
+        <div id="game-board"></div>
+        <div class="instructions">
+            <p>Use arrow keys to move Pacman</p>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
